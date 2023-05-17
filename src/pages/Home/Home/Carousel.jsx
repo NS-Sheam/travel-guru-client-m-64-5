@@ -38,7 +38,7 @@ const Carousel = ({setActiveIndex, destination}) => {
                 {
                     destination.map(dest => (
                         <SwiperSlide key={dest.id} className=' rounded-lg'>
-                            <img className='h-full w-full object-cover border-2 border-orange-400 rounded-lg' src={dest.destinationSliderImg} alt="" />
+                            <img className='h-44 md:h-full w-full object-cover border-2 border-orange-400 rounded-lg' src={dest.destinationSliderImg} alt="" />
                         </SwiperSlide>
                     ))
                 }
