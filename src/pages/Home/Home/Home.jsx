@@ -12,7 +12,7 @@ const Home = () => {
     setBackground(destination[activeIndex].destinationImage)
 
     return (
-        <div className='container mx-auto px-8 md:flex items-start justify-between h-screen'>
+        <div className='container mx-auto px-8 md:flex items-start justify-between md:h-screen'>
             <div className='md:w-1/2 text-white text-center md:text-left my-5'>
                 <h1 className="text-3xl md:text-5xl font-bold">{destination[activeIndex].destinationName}</h1>
                 <p className='my-5'>{destination[activeIndex].destinationDescription}</p>

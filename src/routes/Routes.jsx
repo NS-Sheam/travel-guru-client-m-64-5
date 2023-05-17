@@ -10,7 +10,7 @@ const router = createBrowserRouter([
     {
         path: "/",
         element: <Main />,
-        loader: () => fetch("http://localhost:5000/destination"),
+        loader: () => fetch("https://travel-guru-server-bay-chi.vercel.app/destination"),
         children: [
             {
                 path: "/",

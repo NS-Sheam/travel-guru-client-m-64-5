@@ -28,8 +28,8 @@ const Main = () => {
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
-    height: '100vh',
     width: '100vw',
+    height: '100%'
   }}
   className="relative background-img"
 >
