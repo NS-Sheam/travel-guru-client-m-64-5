@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.swiper-button-prev{
+    
+}
+.background-img{
+    background-color: rgb(57, 57, 57) !important;
+    background-blend-mode: overlay !important;
+}

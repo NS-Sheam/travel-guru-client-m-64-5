@@ -1,0 +1,48 @@
+#app {
+  height: 100%;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+
+.swiper-btn-container {
+  display: flex;
+  gap: 3rem;
+  margin-top: 4rem;
+  
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  position: static !important;
+  /* margin: 10px auto; */
+  /* Adjust the margin value to position the buttons vertically */
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  /* color: white;
+  background-color: black;
+  padding: 1rem;
+  border-radius: 50%; */
+}
